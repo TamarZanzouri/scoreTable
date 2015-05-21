@@ -6,7 +6,7 @@ var app=express();
 app.get('/',function(req,res){
 
 	// res.json({status:1});
-	res.send("worked")
+	res.send("welcome to the ScoreTable")
 })
 
 var ScoreTable =require('./socredTable');
